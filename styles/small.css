@@ -1,0 +1,189 @@
+/* For small screen */
+@media screen and (max-width: 600px) {
+  body {
+    max-width: 360px;
+    align-items: center;
+    position: relative;
+  }
+
+  #header {
+    width: 360px;
+    padding: 0px;
+    gap: 0px;
+    justify-content: flex-start;
+  }
+  #home {
+    position: absolute;
+    font-size: 2rem;
+    top: 50px;
+    left: 8px;
+  }
+
+  #nome {
+    font-size: 20px;
+    margin-left: 60px;
+  }
+  #profile {
+    margin-left: 0px;
+    max-width: 40px;
+  }
+  nav {
+    display: none;
+    font-size: 10px;
+    gap: 5px;
+    justify-content: center;
+    background-color: rgb(11, 1, 1);
+  }
+
+  .div1 {
+    justify-items: center;
+    margin-top: 5px;
+    grid-row: 2;
+    width: 360px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 0px rgb(240, 238, 238);
+  }
+  #h2inicio {
+    width: 300px;
+    margin: 0px;
+    padding: 3px;
+    font-size: 10px;
+    border-radius: 4px;
+  }
+  .medio {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1fr, 5);
+  }
+  aside {
+    flex-direction: column;
+    grid-row: 2;
+    grid-column: 1;
+    justify-items: center;
+    margin-top: 0px;
+    width: 360px;
+    height: auto;
+    margin-left: 0px;
+    box-shadow: 0px 0px 0px 0px;
+  }
+  aside h2 {
+    width: 300px;
+    font-size: 10px;
+    text-align: center;
+    padding: 5px;
+  }
+
+  #fotomedio {
+    width: 80px;
+    height: 80px;
+  }
+  .div3 {
+    grid-column: 1;
+    width: 360px;
+    height: auto;
+    justify-items: center;
+    margin-bottom: 0px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 0px rgb(240, 238, 238);
+  }
+  #titulofinal {
+    text-align: center;
+    padding: 5px;
+    width: 300px;
+    font-size: 10px;
+    box-shadow: 0px 0px 0px 0px rgb(227, 225, 225);
+    border-radius: 5px;
+  }
+  #test {
+    grid-column: 1;
+  }
+
+  .lista1 {
+    width: 40px;
+    justify-content: center;
+    gap: 10px;
+    font-size: 15px;
+    padding: 0;
+    margin-top: 8px;
+  }
+  .all,
+  .cse,
+  .wdd {
+    width: 100px;
+  }
+  #courses {
+    grid-template-rows: 1fr;
+    width: 360px;
+    height: auto;
+    box-shadow: 0px 0px 0px 0px rgb(227, 225, 225);
+  }
+  .lista2 {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    grid-column: 1;
+    margin-top: 0px;
+    gap: 10px;
+    margin: 0px;
+  }
+
+  .allfinal {
+    padding: 2px;
+    width: 280px;
+    font-size: 15px;
+    text-align: center;
+    margin: 0px;
+  }
+  .csefinal {
+    padding: 2px;
+    width: 280px;
+    font-size: 15px;
+  }
+  .wddfinal {
+    padding: 2px;
+    width: 280px;
+    font-size: 15px;
+  }
+
+  footer {
+    width: 360px;
+    height: auto;
+    margin-top: 0;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 17px;
+  }
+
+  #linea {
+    width: 360px;
+    position: absolute;
+    height: 2px;
+    top: 340px;
+    background-color: var(--secondary-color);
+  }
+
+  .menu {
+    display: block;
+    font-size: 3rem;
+    left: 200px;
+    background-color: var(--primary-color);
+    border: none;
+    position: absolute;
+    left: 326px;
+    top: 10px;
+  }
+  .fechar {
+    background-color: rgb(11, 1, 1);
+    font-size: 2rem;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    color: var(--primary-color);
+    position: absolute;
+    left: 337px;
+    top: 52px;
+  }
+}
