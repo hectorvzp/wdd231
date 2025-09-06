@@ -74,6 +74,8 @@
   }
 
   #fotomedio {
+    display: block;
+    margin: 0 auto;
     width: 80px;
     height: 80px;
   }
@@ -151,17 +153,9 @@
     height: auto;
     margin-top: 0;
     text-align: center;
-    padding-top: 0px;
+    padding-top: 1px;
     padding-bottom: 0px;
     font-size: 17px;
-  }
-
-  #linea {
-    width: 360px;
-    position: absolute;
-    height: 2px;
-    top: 340px;
-    background-color: var(--secondary-color);
   }
 
   .menu {

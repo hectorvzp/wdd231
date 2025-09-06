@@ -100,8 +100,9 @@ aside h2 {
 }
 
 #fotomedio {
-  width: 300px;
+  width: 350px;
   height: 190px;
+  display: block;
 }
 #cris {
   margin-top: 10px;
@@ -229,13 +230,6 @@ footer {
 #footertex {
   color: var(--secondary-color);
 }
-#linea {
-  width: 942px;
-  position: absolute;
-  height: 6px;
-  bottom: 220px;
-  background-color: var(--secondary-color);
-}
 
 /* Houver */
 
@@ -246,3 +240,29 @@ li :hover {
   background-color: var(--primary-color);
 }
 /* @media */
+.texto {
+  font-size: 1.5rem;
+  padding: 10px;
+  text-align: justify;
+  font-family: var(--heading-font);
+}
+.iconos {
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  margin-left: auto;
+}
+.git img {
+  width: 50px;
+  height: 50px;
+}
+.credit {
+  text-align: center;
+  font-size: 15px;
+  font-family: var(--heading-font);
+}

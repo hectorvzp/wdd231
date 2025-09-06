@@ -5,29 +5,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="WDD 231 - Web Frontend 1. Course assignment portal for Hector Zambrano. Course offered by Brigham Young University - BYU, through Pathway Worldwide. Assignment portal links to all learning activities and project.">
+  <meta property="og:title" content="Hector Zambrano - WDD 231 - Web Frontend 1">
+  <meta property="og:type" content="article" />
+  <meta property="og:image" content="https://as1.ftcdn.net/jpg/00/53/89/74/1000_F_53897468_wvpQw0xC4Xn1j7H9jYpH4tbj1k8UxHMj.webp">
+  <meta property="og:url" content="file:///C:/Users/elder/OneDrive/Desktop/Projetos/BYU/byu-front/wdd231/index.html">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="author" content="Hector Zambrano">
   <title>Hector Zambrano - WDD 231 - Web Frontend 1</title>
   <link rel="stylesheet" href="./styles/larger.css">
   <link rel="stylesheet" href="./styles/normalize.css">
   <link rel="stylesheet" href="./styles/small.css">
+  <link rel="icon" href="favicon.ico">
 </head>
 
 <body>
   <header>
 
-    <span id="header">
+    <div id="header">
       <img id="profile" src="./images/profile.png" alt="">
       <h1 id="nome">Hector Zambrano</h1>
       <button class="menu">☰</button>
-    </span>
+    </div>
 
 
     <nav class="nav">
       <button class="fechar">❎</button>
-      <a class="nav" href="">Linkedin</a>
-      <a href="">Facebook</a>
-      <a href="">Instagram</a>
-      <a href="">GitHut</a>
+      <a class="nav" href="">Home</a>
+      <a href="">Chamber Project</a>
+      <a href="">Final Project</a>
+
     </nav>
   </header>
   <main>
@@ -35,19 +41,20 @@
     <div class="medio">
       <section>
         <div class="div1">
-          <h2 id="h2inicio">Course Work</h2>
-          <ol>
-            <li>fgfg</li>
-            <li>fg</li>
-            <li>fg</li>
-          </ol>
+          <h2 id="h2inicio">About me</h2>
+          <p class="texto">My name is Hector Zambrano, I’m 24 years old, originally from Venezuela, and currently living in Brazil. I’m deeply passionate about technology, innovation, and the transformative power of knowledge.
+
+            From an early age, I’ve been drawn to challenges and personal growth — values I cultivated through sports, especially during my time practicing fencing. I bring that same discipline, focus, and drive into my journey as a software developer.
+
+            I'm a naturally curious person, always eager to learn, improve, and contribute. I have a strong interest in video games, computer science, and the endless possibilities of the digital world.
+
+            My ultimate professional goal is to become the best developer I can be, combining technical skill, creativity, and integrity to build meaningful, impactful solutions.
+            Outside of work, I value family deeply — I am happily married, and I find strength, motivation, and purpose in the love and support of my wife.</p>
         </div>
       </section>
       <aside>
-        <h2>SAO PAULO</h2>
-        <h2>Rio de Janeiro,Brazil</h2>
-        <img id="fotomedio" src="./images/images.jpg" alt="">
-        <p id="cris">Christ the Redeemer</p>
+        <h2>Student Photo</h2>
+        <img id="fotomedio" src="./images/profile.png" alt="">
       </aside>
       <section id="test">
         <div class="div3">
@@ -61,13 +68,22 @@
         <span id="linea"></span>
         <div id="courses"></div>
       </section>
+
     </div>
 
+    <div class="credit">
+      <p>The total credits for course listed above is 6</p>
+    </div>
+    <div class="iconos">
+      <a class="git" href="https://github.com/hectorvzp"><img src="./images/icons8-github.svg" alt=""></a>
+      <a href="https://www.linkedin.com/in/hector-zambrano-673685197/"><img src="./images/icons8-linkedin-50.svg" alt=""></a>
+    </div>
 
   </main>
   <footer>
     <p> © <span id="mostrarAnoAtual"></span> ✈️ Hector Zambrano ✈️ Brazil</p>
     <p id="footertex">Last Modification <span id="lasti"></span></p>
+
   </footer>
   <script defer src="./scripts/course.js"></script>
   <script defer src="./scripts/date.js"></script>
