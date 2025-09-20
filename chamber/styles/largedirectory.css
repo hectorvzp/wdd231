@@ -55,7 +55,6 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 252px;
   margin-top: auto;
   padding: 0px;
   background-color: var(--secondary-color);
@@ -82,7 +81,6 @@ footer {
   justify-content: center;
   align-items: center; /* Opcional: centraliza verticalmente se houver altura */
   gap: 10px; /* Espaço entre os itens */
-  margin: 0px;
   width: 100%;
 }
 .active {

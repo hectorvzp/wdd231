@@ -25,10 +25,9 @@
     height: auto;
     margin: 0px;
   }
-  header,
-  h1 {
+  header h1 {
     justify-content: flex-start;
-    font-size: 8px;
+    font-size: 15px;
   }
   .menu {
     display: flex;
