@@ -11,7 +11,7 @@ header {
   background-color: var(--secondary-color);
   margin: 0px;
 }
-header h1 {
+header p {
   font-family: var(--heading-font);
   font-size: 30px;
   color: var(--accent2-color);
