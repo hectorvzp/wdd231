@@ -78,4 +78,7 @@
     left: 395px;
     top: 4px;
   }
+  #ch {
+    display: none;
+  }
 }
