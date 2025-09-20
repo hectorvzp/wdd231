@@ -1,0 +1,82 @@
+@media screen and (max-width: 600px) {
+  nav {
+    display: none;
+    font-size: 12px;
+    justify-content: center;
+    max-width: 400px;
+  }
+  nav a:hover {
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+    border-radius: 5px;
+  }
+  header {
+    display: flex;
+    background-color: var(--secondary-color);
+    max-width: 420px;
+    height: auto;
+    align-items: center; /* Opcional: centraliza verticalmente */
+    gap: 0;
+    margin: 0px;
+    font-family: var(--heading-font);
+  }
+  img {
+    max-width: 50px;
+    height: auto;
+    margin: 0px;
+  }
+  header,
+  h1 {
+    justify-content: flex-start;
+    font-size: 8px;
+  }
+  .menu {
+    display: flex;
+    font-size: 30px;
+    margin-right: 0px;
+    margin-left: auto; /* Adicionado */
+    margin-right: 0px;
+    padding: 10px;
+    background-color: var(--secondary-color);
+    border: none;
+  }
+  footer {
+    background-color: var(--secondary-color);
+    font-size: 7px; /* Reduzido */
+    font-family: var(--heading-font);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 0px;
+  }
+  .socialmedia {
+    text-align: center;
+  }
+  .active {
+    display: none;
+  }
+  .fade-in {
+    max-width: 370px;
+    height: auto;
+  }
+  .contactinfo {
+    margin-left: 0px;
+    padding: 10px;
+  }
+  .copyright {
+    text-align: center;
+    margin: 10px;
+  }
+  .fechar {
+    display: none;
+    background-color: var(--secondary-color);
+    font-size: 1rem;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    color: var(--primary-color);
+    position: absolute;
+    left: 395px;
+    top: 4px;
+  }
+}

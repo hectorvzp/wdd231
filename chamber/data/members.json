@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Paulista Tech Solutions",
+    "address": "Av. Paulista, 1578 – Bela Vista, São Paulo – SP, 01310-200",
+    "phone": "+55 (11) 3456-7890",
+    "website": "https://paulistatech.com",
+    "image": "./transferir.jpg",
+    "membership_level": 3,
+    "industry": "Technology",
+    "description": "A leading provider of cloud-based business solutions for SMEs in Brazil."
+  },
+  {
+    "name": "Eco Verde Consultoria",
+    "address": "Rua Oscar Freire, 500 – Pinheiros, São Paulo – SP, 05409-011",
+    "phone": "+55 (11) 4002-8922",
+    "website": "https://ecoverde.com.br",
+    "image": "./transferir.jpg",
+    "membership_level": 2,
+    "industry": "Environmental Consulting",
+    "description": "Helping companies adopt sustainable and eco-friendly practices."
+  },
+  {
+    "name": "Café Paulista Gourmet",
+    "address": "Praça da Sé, 50 – Sé, São Paulo – SP, 01001-000",
+    "phone": "+55 (11) 2789-1122",
+    "website": "https://cafepaulista.com",
+    "image": "./transferir.jpg",
+    "membership_level": 1,
+    "industry": "Food & Beverage",
+    "description": "Specialty coffee roasters bringing authentic Brazilian flavors to the world."
+  },
+  {
+    "name": "Sampa Digital Marketing",
+    "address": "Rua Haddock Lobo, 1200 – Consolação, São Paulo – SP, 01414-002",
+    "phone": "+55 (11) 99876-5432",
+    "website": "https://sampadigital.com",
+    "image": "./transferir.jpg",
+    "membership_level": 3,
+    "industry": "Marketing",
+    "description": "Experts in SEO, PPC, and social media strategies tailored for Brazilian businesses."
+  },
+  {
+    "name": "Moda Paulista",
+    "address": "Rua Augusta, 2222 – Cerqueira César, São Paulo – SP, 01412-100",
+    "phone": "+55 (11) 3344-5566",
+    "website": "https://modapaulista.com",
+    "image": "./transferir.jpg",
+    "membership_level": 2,
+    "industry": "Fashion",
+    "description": "Trendy and affordable clothing brand inspired by São Paulo’s vibrant culture."
+  },
+  {
+    "name": "Bela Vista Health",
+    "address": "Av. Brigadeiro Luís Antônio, 3000 – Bela Vista, São Paulo – SP, 01318-000",
+    "phone": "+55 (11) 2222-7788",
+    "website": "https://belavistahealth.com",
+    "image": "./transferir.jpg",
+    "membership_level": 1,
+    "industry": "Healthcare",
+    "description": "Private healthcare provider with a focus on wellness and preventive care."
+  },
+  {
+    "name": "Transportes Paulista Express",
+    "address": "Av. dos Bandeirantes, 4500 – Vila Olímpia, São Paulo – SP, 04553-100",
+    "phone": "+55 (11) 3111-4455",
+    "website": "https://paulistaexpress.com",
+    "image": "./transferir.jpg",
+    "membership_level": 3,
+    "industry": "Logistics",
+    "description": "Fast and reliable logistics and delivery services across Brazil."
+  }
+]
