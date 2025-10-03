@@ -118,3 +118,203 @@ footer {
 #ch {
   display: none;
 }
+#Hero {
+  width: 100%;
+  max-width: 150rem;
+  max-height: 30rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px 0;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#eventos {
+  display: grid;
+  background-color: var(--secondary-color);
+  color: var(--accent2-color);
+  margin-bottom: 10px;
+  margin-left: 10px;
+  width: 850px;
+  max-width: 100%;
+  height: 180px;
+  border-radius: 15px;
+}
+#eventos h4 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-family: var(--heading-font);
+  background-color: var(--primary-color);
+  font-size: 30px;
+  text-align: center;
+  height: 38px;
+  border-radius: 15px;
+}
+#eventos a {
+  font-family: var(--heading-font);
+  font-size: 17px;
+  color: var(--accent2-color);
+  text-decoration: none;
+  padding: 10px;
+  max-width: 74px;
+  margin-top: 0px;
+}
+#eventos a:hover {
+  background-color: var(--accent2-color);
+  color: var(--primary-color);
+  border-radius: 5px;
+}
+.container {
+  display: flex;
+  gap: 20px;
+  margin-left: 0px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 0;
+}
+li {
+  margin-top: 8px;
+  margin-left: 2px;
+}
+
+#weather {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--secondary-color);
+  color: var(--accent2-color);
+  max-width: 100%;
+  width: 400px;
+  height: 180px;
+  padding: 0px;
+  gap: 0px;
+  font-size: 8px;
+  border-radius: 10px;
+}
+
+.weather-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* duas colunas iguais */
+  grid-template-rows: 1fr 1fr; /* duas linhas iguais */
+  gap: 10px;
+  margin-left: 20px;
+  align-items: center; /* Centraliza horizontalmente */
+  justify-content: center; /* Centraliza verticalmente */
+  font-family: var(--heading-font);
+  font-size: 20px;
+  width: 100%;
+  height: 140px;
+}
+#weather h4 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-family: var(--heading-font);
+  background-color: var(--primary-color);
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  border-radius: 10px;
+}
+
+#call {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--heading-font);
+  font-size: 20px;
+  color: var(--accent2-color);
+  text-decoration: none;
+  padding: 10px;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+#call:hover {
+  background-color: var(--accent2-color);
+  color: var(--primary-color);
+  border-radius: 5px;
+}
+
+#busineses {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: var(--heading-font);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px 0;
+}
+#busineses div {
+  background-color: var(--secondary-color);
+  padding: 10px;
+  color: var(--accent2-color);
+  font-family: var(--heading-font);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-style: none;
+}
+#busineses div p a {
+  text-decoration: none;
+  color: var(--accent2-color);
+  font-family: var(--heading-font);
+  font-size: 15px;
+}
+#busineses div p a:hover {
+  background-color: var(--accent2-color);
+  color: var(--primary-color);
+  border-radius: 5px;
+}
+#home {
+  font-family: var(--heading-font);
+  font-size: 40px;
+  color: var(--primary-color);
+  text-align: center;
+  margin: 20px 0;
+}
+
+#forecast {
+  display: flex;
+  gap: 5px;
+  padding: 5px;
+  font-size: 10px;
+  height: 132px;
+  background-color: var(--secondary-color);
+  border-radius: 30px;
+}
+#forecast p {
+  font-family: var(--heading-font);
+  color: var(--accent2-color);
+  text-align: center;
+  margin: 0px;
+  font-size: 18px;
+}
+#forecast img {
+  margin-left: 70px;
+}
+#forecastbox {
+  height: 180px;
+  width: 580px;
+  background-color: var(--secondary-color);
+  border-radius: 15px;
+}
+#for_title {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-family: var(--heading-font);
+  background-color: var(--primary-color);
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  height: 38px;
+  color: var(--accent2-color);
+  border-radius: 15px;
+}

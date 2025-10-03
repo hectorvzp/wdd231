@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Título da página -->
+  <title>Paulista Chamber of Commerce</title>
+
+  <!-- Meta description (SEO) -->
+  <meta name="description" content="Explore the Paulista Chamber business directory. Find member details, contacts, websites, and opportunities to connect with local companies.">
+
+  <!-- Autor -->
+  <meta name="author" content="Hector Zambrano">
+
+  <!-- Favicon -->
+  <link rel="icon" href="./images/logopa.svg" type="image/svg+xml">
+
+  <!-- Preconnect para Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Google Fonts (todas em uma única URL) -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  <!-- Open Graph (OG) Tags -->
+  <meta property="og:title" content="Paulista Chamber of Commerce">
+  <meta property="og:description" content="Explore the Paulista Chamber business directory. Find member details, contacts, websites, and opportunities to connect with local companies.">
+  <meta property="og:image" content="./images/logopau.ico">
+  <meta property="og:url" content="./index.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Paulista Chamber of Commerce">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../styles/normalize.css">
+  <link rel="stylesheet" href="./styles/largedirectory.css">
+  <link rel="stylesheet" href="./styles/smalldirectory.css">
+</head>
+
+
+<body>
+  <header>
+    <img class="logo" src="./images/logopau.ico" alt="Logo Paulista Chamber of Commerce" loading="lazy">
+    <p class="texto">Paulista Chamber of Commerce</p>
+    <nav>
+      <a href="./index.html">Home</a>
+      <a href="./directory.html">Directory</a>
+      <a href="">Join</a>
+      <a href="">Discovery</a>
+    </nav>
+    <button class="fechar" aria-label="Fechar menu">❎</button>
+    <button class="menu" aria-label="Abrir menu">☰</button>
+  </header>
+  <main>
+    <h1 id="ch">Paulista Chamber of Commerce</h1>
+
+    <section>
+      <img id="Hero" src="./images/Hero Image Paulista Chamber Commerce.jpg" alt="">
+    </section>
+    <h1 id="home">Home</h1>
+    <strong><a id="call" href="">Secure your spot at the next business event</a></strong>
+    <section class="container">
+      <div id="eventos">
+        <h4>Events</h4>
+        <ul>
+          <li><strong><a href="">Paulista Business Networking Night - 25 Março 2026</a></strong></li>
+          <li><strong><a href="">São Paulo Innovation & Trade Forum - 18 Junho 2026 </a></strong></li>
+          <li><strong><a href="">Paulista Women in Business Summit - 17 </a></strong></li>
+        </ul>
+      </div>
+      <div id="weather">
+        <h4>Current Weather</h4>
+        <div id="weatherr">
+        </div>
+      </div>
+
+      <div id="forecastbox">
+        <h4 id="for_title">Weather Forecast</h4>
+        <div id="forecast"></div>
+      </div>
+    </section>
+    <section id="busineses">
+
+    </section>
+  </main>
+  <footer>
+    <div class="contactinfo">
+      <h3>Paulista Chamber of Commerce</h3>
+      <p>Av. Paulista, 1578 – Bela Vista, São Paulo – SP</p>
+      <p>paulistachember@gmail.com</p>
+      <p>+55 (11) 987458764</p>
+    </div>
+    <div class="socialmedia">
+      <a href=""><img src="./images/icons8-github.svg" alt="GitHub"></a>
+      <a href=""><img src="./images/icons8-linkedin-50.svg" alt="LinkedIn"></a>
+      <a href=""><img src="./images/icons8-youtube.svg" alt="YouTube"></a>
+    </div>
+    <div class="copyright">
+      <p>WDD231 Class Project</p>
+      <p>Hector Zambrano</p>
+      <p id="footertex">Last Modification <span id="lasti"></span></p>
+    </div>
+
+
+  </footer>
+
+  <script defer src="./scripts/directory.js"></script>
+  <script defer src="./scripts/date.js"></script>
+  <script defer src="./scripts/home.js"></script>
+
+</body>
+
+</html>

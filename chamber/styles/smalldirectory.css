@@ -3,7 +3,7 @@
     display: none;
     font-size: 12px;
     justify-content: center;
-    max-width: 400px;
+    max-width: 100%;
   }
   nav a:hover {
     background-color: var(--accent2-color);
@@ -13,7 +13,7 @@
   header {
     display: flex;
     background-color: var(--secondary-color);
-    max-width: 420px;
+    max-width: 100%;
     height: auto;
     align-items: center; /* Opcional: centraliza verticalmente */
     gap: 0;
@@ -31,10 +31,9 @@
   }
   .menu {
     display: flex;
-    font-size: 30px;
+    font-size: 2rem;
     margin-right: 0px;
     margin-left: auto; /* Adicionado */
-    margin-right: 0px;
     padding: 10px;
     background-color: var(--secondary-color);
     border: none;
@@ -80,5 +79,94 @@
   }
   #ch {
     display: none;
+  }
+  main {
+    max-width: 400px;
+    margin: 0px;
+    padding: 0px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 0px;
+    padding: 0px;
+  }
+  #eventos {
+    max-width: 370px;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+  }
+  #eventos h4 {
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    height: 30px;
+  }
+  #eventos li a {
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+  }
+  #weather {
+    font-size: 10px;
+    max-width: 370px;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+  }
+  #weatherr {
+    font-size: 15px;
+  }
+  #weather h4 {
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    height: 30px;
+  }
+  #forecastbox {
+    height: auto;
+    padding: 0px;
+    justify-items: center;
+    font-size: 10px;
+    max-width: 370px;
+    margin: 0px;
+  }
+  #forecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+    gap: 5px;
+  }
+  #forecast p {
+    font-size: 12px;
+  }
+  #for_title {
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+    height: 30px;
+    text-align: center;
+  }
+  .businesses {
+    max-width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+  }
+  #call {
+    font-size: 10px;
+    text-align: center;
+  }
+  #home {
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
   }
 }
