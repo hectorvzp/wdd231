@@ -169,4 +169,10 @@
     margin: 0px;
     padding: 0px;
   }
+  form {
+    flex: 1;
+  }
+  .membresias {
+    flex: 1;
+  }
 }

@@ -317,3 +317,165 @@ li {
   color: var(--accent2-color);
   border-radius: 15px;
 }
+.formu {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: var(--primary);
+  text-align: center;
+  font: var(--heading-font);
+  font-size: 30px;
+}
+
+form {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 0.3rem;
+}
+
+input[type="submit"] {
+  background-color: var(--secondary-color);
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  border: none;
+  padding: 0.7rem;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--accent1-color);
+}
+
+/* Membership cards */
+
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+.card h3 {
+  color: var(--secondary-color);
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.memberships {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+  max-width: 900px;
+  width: 100%;
+  font-family: var(--heading-font);
+}
+
+.card a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Modals */
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+dialog {
+  border: none;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  max-width: 400px;
+  font-family: var(--paragraph-font);
+}
+
+dialog h2 {
+  margin-top: 0;
+}
+
+dialog button {
+  margin-top: 1rem;
+  background: var(--secondary-color);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.thankyou {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+h1 {
+  color: #1d3557;
+}
+.info {
+  padding: 1.5rem;
+  font-family: var(--heading-font);
+  color: var(--accent2-color);
+  border-radius: 10px;
+  background-color: var(--secondary-color);
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+p span {
+  font-weight: bold;
+}
+@keyframes spotlightCard {
+  0% {
+    opacity: 0;
+    margin-top: 40px;
+    background: var(--accent2-color);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  60% {
+    opacity: 1;
+    margin-top: 0px;
+    background: rgb(190, 139, 139);
+    box-shadow: 0 8px 24px rgba(230, 57, 70, 0.15);
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.card.spotlight {
+  animation: spotlightCard 1.2s cubic-bezier(0.5, 1.5, 0.5, 1) forwards;
+}

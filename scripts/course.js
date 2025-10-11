@@ -64,12 +64,15 @@ function lista() {
       const el = e.target;
       if (el.classList.contains("all")) {
         displayAll(courses);
+        modalCourse();
       }
       if (el.classList.contains("cse")) {
         displayCse(courses);
+        modalCourse();
       }
       if (el.classList.contains("wdd")) {
         displayWdd(courses);
+        modalCourse();
       }
       if (el.classList.contains("menu")) {
         actBotton();
@@ -89,3 +92,12 @@ function lista() {
 }
 
 lista();
+
+function modalCourse() {
+  const modal = document.getElementById("modal");
+  modal.showModal();
+  const closeButton = document.getElementById("close-modal");
+  closeButton.addEventListener("click", () => {
+    modal.close();
+  });
+}

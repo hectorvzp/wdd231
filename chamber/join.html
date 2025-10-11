@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Título da página -->
+  <title>Paulista Chamber of Commerce</title>
+
+  <!-- Meta description (SEO) -->
+  <meta name="description" content="Explore the Paulista Chamber business directory. Find member details, contacts, websites, and opportunities to connect with local companies.">
+
+  <!-- Autor -->
+  <meta name="author" content="Hector Zambrano">
+
+  <!-- Favicon -->
+  <link rel="icon" href="./images/logopa.svg" type="image/svg+xml">
+
+  <!-- Preconnect para Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Google Fonts (todas em uma única URL) -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  <!-- Open Graph (OG) Tags -->
+  <meta property="og:title" content="Paulista Chamber of Commerce">
+  <meta property="og:description" content="Explore the Paulista Chamber business directory. Find member details, contacts, websites, and opportunities to connect with local companies.">
+  <meta property="og:image" content="https://seudominio.com/images/logopau.ico">
+  <meta property="og:url" content="https://seudominio.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Paulista Chamber of Commerce">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../styles/normalize.css">
+  <link rel="stylesheet" href="./styles/largedirectory.css">
+  <link rel="stylesheet" href="./styles/smalldirectory.css">
+</head>
+<header>
+  <img class="logo" src="./images/logopau.ico" alt="Logo Paulista Chamber of Commerce" loading="lazy">
+  <p class="texto">Paulista Chamber of Commerce</p>
+  <nav>
+    <a href="./index.html">Home</a>
+    <a href="./directory.html">Directory</a>
+    <a href="./join.html">Join</a>
+    <a href="">Discovery</a>
+  </nav>
+  <button class="fechar" aria-label="Fechar menu">❎</button>
+  <button class="menu" aria-label="Abrir menu">☰</button>
+</header>
+
+<body>
+  <h1>Membership Application Form</h1>
+
+  <main class="formu">
+    <form method="get" action="thankyou.html">
+      <label>
+        Applicant’s First Name:
+        <input type="text" name="firstname" title="First Name" autocomplete="given-name" required />
+      </label>
+
+      <label>
+        Applicant’s Last Name:
+        <input type="text" name="lastname" title="Last Name" autocomplete="family-name" required />
+      </label>
+
+      <label>
+        Applicant’s Organizational Title:
+        <input type="text" name="orgtitle" title="Organizational Title" autocomplete="organization-title" pattern="[A-Za-z\\s\\-]{7,}" />
+      </label>
+
+      <label>
+        Email Address:
+        <input type="email" name="email" title="Email Address" autocomplete="email" required placeholder="example@email.com" />
+      </label>
+
+      <label>
+        Mobile Phone Number:
+        <input type="tel" name="mobile" title="Mobile Phone Number" autocomplete="tel" required />
+      </label>
+
+      <label>
+        Company/Organization Name:
+        <input type="text" name="organization" title="Company or Organization" autocomplete="organization" required />
+      </label>
+
+      <label>
+        Membership Level:
+        <select name="membership" title="Membership Level">
+          <option value="NP">NP (Nonprofit – no cost)</option>
+          <option value="Bronze">Bronze</option>
+          <option value="Silver">Silver</option>
+          <option value="Gold">Gold</option>
+        </select>
+      </label>
+
+      <label>
+        Description of your organization:
+        <textarea name="description" title="Organization Description"></textarea>
+      </label>
+      <input type="hidden" name="timestamp" id="timestamp" />
+      <input type="submit" value="Submit Application" />
+    </form>
+
+    <section class="memberships spotlight">
+      <div class="card spotlight">
+        <h3>NP</h3>
+        <p>For nonprofit organizations. No cost.</p>
+        <a href="#" onclick="openModal('modalNP')">More info</a>
+      </div>
+
+      <div class="card spotlight">
+        <h3>Bronze</h3>
+        <p>Basic access with initial benefits.</p>
+        <a href="#" onclick="openModal('modalBronze')">More info</a>
+      </div>
+
+      <div class="card spotlight">
+        <h3>Silver</h3>
+        <p>Greater visibility and event discounts.</p>
+        <a href="#" onclick="openModal('modalSilver')">More info</a>
+      </div>
+
+      <div class="card spotlight">
+        <h3>Gold</h3>
+        <p>Top-level membership with premium perks.</p>
+        <a href="#" onclick="openModal('modalGold')">More info</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modals -->
+  <dialog id="modalNP">
+    <h2>NP Membership</h2>
+    <p>No cost. Designed for nonprofit organizations.</p>
+    <p>Benefits: event participation and basic visibility.</p>
+    <button onclick="closeModal('modalNP')">Close</button>
+  </dialog>
+
+  <dialog id="modalBronze">
+    <h2>Bronze Membership</h2>
+    <p>Includes basic training and access to local events.</p>
+    <button onclick="closeModal('modalBronze')">Close</button>
+  </dialog>
+
+  <dialog id="modalSilver">
+    <h2>Silver Membership</h2>
+    <p>Additional benefits: featured advertising and discounts.</p>
+    <button onclick="closeModal('modalSilver')">Close</button>
+  </dialog>
+
+  <dialog id="modalGold">
+    <h2>Gold Membership</h2>
+    <p>Premium access to all events, exclusive advertising, and personalized consulting.</p>
+    <button onclick="closeModal('modalGold')">Close</button>
+  </dialog>
+
+  <footer>
+    <div class="contactinfo">
+      <h3>Paulista Chamber of Commerce</h3>
+      <p>Av. Paulista, 1578 – Bela Vista, São Paulo – SP</p>
+      <p>paulistachember@gmail.com</p>
+      <p>+55 (11) 987458764</p>
+    </div>
+    <div class="socialmedia">
+      <a href=""><img src="./images/icons8-github.svg" alt="GitHub"></a>
+      <a href=""><img src="./images/icons8-linkedin-50.svg" alt="LinkedIn"></a>
+      <a href=""><img src="./images/icons8-youtube.svg" alt="YouTube"></a>
+    </div>
+    <div class="copyright">
+      <p>WDD231 Class Project</p>
+      <p>Hector Zambrano</p>
+      <p id="footertex">Last Modification <span id="lasti"></span></p>
+    </div>
+
+
+  </footer>
+
+  <script defer src="./scripts/directory.js"></script>
+  <script defer src="./scripts/date.js"></script>
+  <script defer src="./scripts/home.js"></script>
+  <script defer src="./scripts/join.js"></script>
+
+</body>
+
+</html>
