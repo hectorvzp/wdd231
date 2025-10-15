@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site Plan | Come With Me Travels</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./trip-plan.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Site Plan: Come With Me Travels</h1>
+    </header>
+
+    <section class="section">
+      <h2>1. Site Name and Purpose</h2>
+
+      <h3>Site Name</h3>
+      <p class="content"><strong>Come With Me Travels</strong></p>
+      <p class="explanation">The name is inviting, friendly, and suggests a partnership in travel planning, establishing a welcoming and personal tone, ideal for a service agency. The representative domain would be <code>comewithmetravels.com</code>.</p>
+
+      <h3>Site Purpose</h3>
+      <p class="content">The website aims to be a complete resource hub for travelers, providing detailed information on **travel packages** (dynamically generated) and destinations, along with **hotel/resort data**, customer testimonials, and a direct contact channel for quotes. The goal is to convert interested visitors into booking clients.</p>
+    </section>
+
+    <section class="section">
+      <h2>2. Scenarios</h2>
+      <p>These scenarios represent the main questions from the target audience and help prioritize content and functionality.</p>
+
+      <div class="scenario-list">
+        <h3>Scenario 1</h3>
+        <p class="content">"Which packages of 7 days or more are available for European destinations and what is the cheapest option?"</p>
+        <p class="explanation">This drives the need for a tours page with **data filtering** and a clear display of **price** and **duration**, which will be the focus of the Array Method in JavaScript.</p>
+
+        <h3>Scenario 2</h3>
+        <p class="content">"How can I quickly contact the agency to ask a question about travel insurance before finalizing my purchase?"</p>
+        <p class="explanation">This drives the need for an **HTML Form** and clear contact information on the homepage, in addition to a possible Modal implementation for a contact or details pop-up.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>3. Design and Style</h2>
+
+      <h3>Color Schema</h3>
+      <p>The chosen palette aims to convey **trust**, **tranquility** (blue), and **enthusiasm/action** (orange/yellow).</p>
+
+      <div class="color-palette">
+        <div class="color-swatch" style="background-color: #0077B6;">
+          <p>#0077B6</p>
+          <p>Primary Blue</p>
+        </div>
+        <div class="color-swatch" style="background-color: #FFFFFF; color: #333; border: 1px solid #ccc;">
+          <p>#FFFFFF</p>
+          <p>White (Base)</p>
+        </div>
+        <div class="color-swatch" style="background-color: #90E0EF;">
+          <p>#90E0EF</p>
+          <p>Light Cyan (Background)</p>
+        </div>
+        <div class="color-swatch" style="background-color: #F48C06;">
+          <p>#F48C06</p>
+          <p>Orange (Action)</p>
+        </div>
+      </div>
+
+      <ul>
+        <li><strong>Primary Blue (#0077B6):</strong> Headings (H1, H2), Primary Action Buttons, Active Links (Wayfinding).</li>
+        <li><strong>White (#FFFFFF):</strong> Main content background, Cards, Text on Dark Backgrounds.</li>
+        <li><strong>Light Cyan (#90E0EF):</strong> Subtle `
+
+          <body>` background, Divider Lines.
+        </li>
+        <li><strong>Orange (#F48C06):</strong> Secondary Buttons, Price/Offer Highlights, Link Hovers.</li>
+      </ul>
+
+      <h3>Typography</h3>
+
+      <div class="typography-example">
+        <p class="heading-font">Playfair Display: Display Headings (H1, H2)</p>
+        <p class="body-font">Roboto: Body Text, Navigation, General Readability (Standard)</p>
+      </div>
+
+      <ul>
+        <li>**'Playfair Display', serif:** Used for titles and headings for an elegant and impactful touch.</li>
+        <li>**'Roboto', sans-serif:** Used for body text, ensuring high readability across all devices.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>4. Homepage Wireframe (`index.html`)</h2>
+      <p>The following representations are descriptive and should be replaced by your own sketches/drawings, as per the project requirement.</p>
+
+      <div class="wireframe-sketch mobile-view">
+        <h3>Mobile View (320px - Vertical Layout)</h3>
+        <p class="sketch-content">
+          [A] HEADER: LOGO | ☰ (HAMBURGER)<br>
+          --- (JS toggles Vertical Menu) ---<br>
+          [C] MAIN/BANNER: [Hero Image / H1 Title]<br>
+          [D] SERVICES: [Service Block 1 in 1 column]<br>
+          [D] SERVICES: [Service Block 2 in 1 column]<br>
+          [D] SERVICES: [Service Block 3 in 1 column]<br>
+          [E] FORM: [Input Fields] [Orange Action Button]<br>
+          [F] FOOTER: (Single Line: Copyright | Attributions | Video Link)
+        </p>
+      </div>
+
+      <div class="wireframe-sketch desktop-view">
+        <h3>Desktop View (Horizontal Layout)</h3>
+        <p class="sketch-content">
+          [A] HEADER: LOGO | [ Horizontal NAV Links (Blue Highlight) ]<br>
+          [C] MAIN/BANNER: [ Wide Hero Image / H1 Title ]<br>
+          [D] SERVICES: [Block 1] | [Block 2] | [Block 3] (Arranged in 3 Columns via Grid/Flexbox)<br>
+          [E] QUOTE FORM: [ Form on Left Side ] | [ Feature Image on Right Side ]<br>
+          [F] FOOTER: (Links in 3 Columns, with Attributions and Video Link)
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Site Plan | Developed for WDD 231</p>
+    </footer>
+  </div>
+</body>
+
+</html>

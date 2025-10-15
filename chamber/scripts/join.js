@@ -4,7 +4,6 @@ const lastname = params.get("lastname");
 const email = params.get("email");
 const mobile = params.get("mobile");
 const organization = params.get("organization");
-console.log(params);
 const timestamp = new Date().toLocaleString();
 document.getElementById("info").innerHTML = `
       <p><span>First Name:</span> ${firstname}</p>
