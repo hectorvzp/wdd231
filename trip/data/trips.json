@@ -1,0 +1,244 @@
+{
+  "tours": [
+    {
+      "city": "Paris",
+      "options": [
+        {
+          "name": "Guided visit to the Eiffel Tower and Seine River cruise",
+          "price": 95,
+          "duration": "4 hours"
+        },
+        {
+          "name": "Walking tour of Montmartre and the Sacré-Cœur Basilica",
+          "price": 60,
+          "duration": "3 hours"
+        },
+        {
+          "name": "Louvre Museum guided art experience",
+          "price": 85,
+          "duration": "3 hours"
+        },
+        {
+          "name": "Evening lights tour and dinner at a French bistro",
+          "price": 120,
+          "duration": "5 hours"
+        },
+        {
+          "name": "Day trip to the Palace of Versailles",
+          "price": 150,
+          "duration": "8 hours"
+        }
+      ]
+    },
+    {
+      "city": "Maldives",
+      "options": [
+        {
+          "name": "Snorkeling adventure through Maafushi coral reefs",
+          "price": 110,
+          "duration": "3 hours"
+        },
+        {
+          "name": "Sunset dolphin-watching boat tour",
+          "price": 95,
+          "duration": "2 hours"
+        },
+        {
+          "name": "Private sandbank picnic and lagoon swim",
+          "price": 180,
+          "duration": "4 hours"
+        },
+        {
+          "name": "Underwater restaurant dining experience",
+          "price": 250,
+          "duration": "2 hours"
+        },
+        {
+          "name": "Scuba diving trip to Banana Reef",
+          "price": 210,
+          "duration": "3 hours"
+        }
+      ]
+    },
+    {
+      "city": "Kyoto",
+      "options": [
+        {
+          "name": "Temple tour to Kinkaku-ji and Fushimi Inari Shrine",
+          "price": 75,
+          "duration": "4 hours"
+        },
+        {
+          "name": "Traditional tea ceremony experience in Gion",
+          "price": 55,
+          "duration": "2 hours"
+        },
+        {
+          "name": "Bamboo Forest walk in Arashiyama",
+          "price": 40,
+          "duration": "2 hours"
+        },
+        {
+          "name": "Geisha culture evening experience",
+          "price": 100,
+          "duration": "3 hours"
+        },
+        {
+          "name": "Day trip to Nara and the Todai-ji Temple",
+          "price": 90,
+          "duration": "8 hours"
+        }
+      ]
+    },
+    {
+      "city": "Rio de Janeiro",
+      "options": [
+        {
+          "name": "Visit to Christ the Redeemer and Sugarloaf Mountain",
+          "price": 80,
+          "duration": "5 hours"
+        },
+        {
+          "name": "Samba show and dinner in Lapa",
+          "price": 110,
+          "duration": "4 hours"
+        },
+        {
+          "name": "Helicopter flight over Copacabana Beach",
+          "price": 250,
+          "duration": "1 hour"
+        },
+        {
+          "name": "Favela cultural walking tour",
+          "price": 60,
+          "duration": "3 hours"
+        },
+        {
+          "name": "Boat trip around Guanabara Bay",
+          "price": 90,
+          "duration": "4 hours"
+        }
+      ]
+    },
+    {
+      "city": "Machu Picchu",
+      "options": [
+        {
+          "name": "Inca Trail hike to the Machu Picchu Sanctuary",
+          "price": 400,
+          "duration": "4 days"
+        },
+        {
+          "name": "Train journey from Cusco to Machu Picchu",
+          "price": 180,
+          "duration": "1 day"
+        },
+        {
+          "name": "Tour of Sacred Valley and Pisac Market",
+          "price": 100,
+          "duration": "8 hours"
+        },
+        {
+          "name": "Cusco city tour and Qorikancha Temple visit",
+          "price": 60,
+          "duration": "4 hours"
+        },
+        {
+          "name": "Sunrise viewing from the Inti Punku Gate",
+          "price": 120,
+          "duration": "3 hours"
+        }
+      ]
+    },
+    {
+      "city": "New York",
+      "options": [
+        {
+          "name": "Manhattan city tour and Statue of Liberty visit",
+          "price": 100,
+          "duration": "6 hours"
+        },
+        {
+          "name": "Broadway night show with Times Square walk",
+          "price": 150,
+          "duration": "4 hours"
+        },
+        {
+          "name": "Central Park bike tour",
+          "price": 70,
+          "duration": "3 hours"
+        },
+        {
+          "name": "Observation deck visit at Empire State Building",
+          "price": 60,
+          "duration": "2 hours"
+        },
+        {
+          "name": "Museum of Modern Art (MoMA) guided visit",
+          "price": 80,
+          "duration": "3 hours"
+        }
+      ]
+    },
+    {
+      "city": "Bora Bora",
+      "options": [
+        {
+          "name": "Lagoon boat trip with tropical fish observation",
+          "price": 140,
+          "duration": "3 hours"
+        },
+        {
+          "name": "Shark and ray snorkeling safari",
+          "price": 160,
+          "duration": "4 hours"
+        },
+        {
+          "name": "Sunset catamaran cruise with local music",
+          "price": 190,
+          "duration": "3 hours"
+        },
+        {
+          "name": "Private island beach picnic",
+          "price": 220,
+          "duration": "4 hours"
+        },
+        {
+          "name": "4x4 island safari adventure",
+          "price": 130,
+          "duration": "3 hours"
+        }
+      ]
+    },
+    {
+      "city": "Santorini",
+      "options": [
+        {
+          "name": "Village tour of Oia and Fira with wine tasting",
+          "price": 100,
+          "duration": "5 hours"
+        },
+        {
+          "name": "Caldera sailing cruise with barbecue dinner",
+          "price": 160,
+          "duration": "6 hours"
+        },
+        {
+          "name": "Archaeological site tour of Akrotiri",
+          "price": 70,
+          "duration": "3 hours"
+        },
+        {
+          "name": "Sunset photo tour around the caldera",
+          "price": 90,
+          "duration": "3 hours"
+        },
+        {
+          "name": "Cooking class with traditional Greek dishes",
+          "price": 110,
+          "duration": "4 hours"
+        }
+      ]
+    }
+  ]
+}

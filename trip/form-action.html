@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quote Submitted | Come With Me Travels</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo"><a href="index.html">Come With Me Travels</a></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tours.html">Trips & Packages</a></li>
+        <li><a href="places.html">Hotels & Stays</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Thank You for Your Request!</h1>
+    <p>Your quote request has been successfully received. We will contact you shortly.</p>
+
+    <h2>Submitted Information:</h2>
+    <div id="form-data-display">
+      <p>Loading data...</p>
+    </div>
+
+    <p><a href="index.html" class="btn">Return to Home</a></p>
+  </main>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const displayDiv = document.getElementById('form-data-display');
+      const params = new URLSearchParams(window.location.search);
+
+      let html = '<ul>';
+
+      // 🌟 Exibe os dados de todos os parâmetros GET
+      for (const [key, value] of params.entries()) {
+        html += `<li><strong>${key.charAt(0).toUpperCase() + key.slice(1)}:</strong> ${decodeURIComponent(value)}</li>`;
+      }
+      html += '</ul>';
+
+      displayDiv.innerHTML = html;
+    });
+  </script>
+
+  <footer>
+    <p>&copy; 2025 Come With Me Travels | <a href="index.html">Home</a></p>
+  </footer>
+</body>
+
+</html>

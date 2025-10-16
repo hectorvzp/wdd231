@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "destination": "Paris, France",
+    "duration_days": 5,
+    "base_price": 1200.0,
+    "image_url": "./images/paris.jpg",
+    "category": "City Break"
+  },
+  {
+    "id": 2,
+    "destination": "Maldives Islands",
+    "duration_days": 10,
+    "base_price": 3200.0,
+    "image_url": "images/maldivas.jpg",
+    "category": "Beach & Relax"
+  },
+  {
+    "id": 3,
+    "destination": "Kyoto, Japan",
+    "duration_days": 14,
+    "base_price": 2800.0,
+    "image_url": "images/japon.jpg",
+    "category": "Culture"
+  },
+  {
+    "id": 4,
+    "destination": "Rio de Janeiro, Brazil",
+    "duration_days": 7,
+    "base_price": 950.0,
+    "image_url": "images/rio.jpg",
+    "category": "Beach & City"
+  },
+  {
+    "id": 5,
+    "destination": "Machu Picchu, Peru",
+    "duration_days": 8,
+    "base_price": 1850.0,
+    "image_url": "images/machu.jpg",
+    "category": "Adventure"
+  },
+  {
+    "id": 6,
+    "destination": "New York, USA",
+    "duration_days": 4,
+    "base_price": 1100.0,
+    "image_url": "images/new-york.jpg",
+    "category": "City Break"
+  },
+  {
+    "id": 7,
+    "destination": "Bora Bora, French Polynesia",
+    "duration_days": 9,
+    "base_price": 4500.0,
+    "image_url": "images/bora.jpg",
+    "category": "Beach & Relax"
+  },
+  {
+    "id": 8,
+    "destination": "Great Wall, China",
+    "duration_days": 12,
+    "base_price": 2100.0,
+    "image_url": "images/china.jpg",
+    "category": "Culture"
+  },
+  {
+    "id": 9,
+    "destination": "Santorini, Greece",
+    "duration_days": 7,
+    "base_price": 1650.0,
+    "image_url": "images/santorini.jpg",
+    "category": "City Break"
+  },
+  {
+    "id": 10,
+    "destination": "Cape Town, South Africa",
+    "duration_days": 10,
+    "base_price": 1400.0,
+    "image_url": "images/africa.jpg",
+    "category": "Adventure"
+  },
+  {
+    "id": 11,
+    "destination": "Sydney, Australia",
+    "duration_days": 15,
+    "base_price": 3100.0,
+    "image_url": "images/sidney.jpg",
+    "category": "City Break"
+  },
+  {
+    "id": 12,
+    "destination": "Dubai, UAE",
+    "duration_days": 6,
+    "base_price": 1900.0,
+    "image_url": "images/dubai.jpg",
+    "category": "City Break"
+  },
+  {
+    "id": 13,
+    "destination": "Rome, Italy",
+    "duration_days": 5,
+    "base_price": 1050.0,
+    "image_url": "images/roma.jpg",
+    "category": "Culture"
+  },
+  {
+    "id": 14,
+    "destination": "Cancun, Mexico",
+    "duration_days": 7,
+    "base_price": 1350.0,
+    "image_url": "images/cancun.jpg",
+    "category": "Beach & Relax"
+  },
+  {
+    "id": 15,
+    "destination": "Banff National Park, Canada",
+    "duration_days": 9,
+    "base_price": 2000.0,
+    "image_url": "images/canada.jpg",
+    "category": "Adventure"
+  },
+  {
+    "id": 16,
+    "destination": "Cairo, Egypt",
+    "duration_days": 8,
+    "base_price": 1150.0,
+    "image_url": "images/cairo.jpg",
+    "category": "Culture"
+  }
+]

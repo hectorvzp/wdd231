@@ -2,241 +2,255 @@
 1. Variáveis de Cor e Tipografia (Definidas no Plano)
 ========================================================= */
 :root {
---primary-blue: #0077B6; /* Confiança, Títulos, Links */
---light-cyan: #90E0EF; /* Fundo Suave */
---action-orange: #F48C06; /* Ação, Destaques */
---base-white: #FFFFFF;
---dark-text: #333;
+  --primary-blue: #0077b6; /* Confiança, Títulos, Links */
+  --light-cyan: #90e0ef; /* Fundo Suave */
+  --action-orange: #f48c06; /* Ação, Destaques */
+  --base-white: #ffffff;
+  --dark-text: #333;
 
---font-heading: 'Playfair Display', serif;
---font-body: 'Roboto', sans-serif;
+  --font-heading: "Roboto", "Playfair Display", serif;
+  --font-body: "Roboto", sans-serif;
 }
 
 * {
-box-sizing: border-box;
-margin: 0;
-padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-font-family: var(--font-body);
-background-color: var(--light-cyan);
-color: var(--dark-text);
-padding-top: 80px; /* Espaço para o header fixo */
+  font-family: var(--font-body);
+  background-color: var(--light-cyan);
+  color: var(--dark-text);
+  padding-top: 80px; /* Espaço para o header fixo */
 }
 
 /* =========================================================
 2. Cabeçalho e Navegação (Responsividade / Wayfinding)
 ========================================================= */
 header {
-background-color: var(--primary-blue);
-color: var(--base-white);
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-z-index: 1000;
+  background-color: var(--primary-blue);
+  color: var(--base-white);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 nav {
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
 }
 
 .logo a {
-font-family: var(--font-heading);
-color: var(--base-white);
-text-decoration: none;
-font-size: 1.5em;
+  font-family: var(--font-heading);
+  color: var(--base-white);
+  text-decoration: none;
+  font-size: 1.5em;
 }
 
 .nav-links {
-list-style: none;
-display: none; /* Oculto por padrão no mobile */
-flex-direction: column;
-width: 100%;
-position: absolute;
-top: 80px; /* Abaixo do header */
-left: 0;
-background-color: var(--primary-blue);
-padding-bottom: 10px;
+  list-style: none;
+  display: none; /* Oculto por padrão no mobile */
+  flex-direction: column;
+  width: 100%;
+  position: absolute;
+  top: 80px; /* Abaixo do header */
+  left: 0;
+  background-color: var(--primary-blue);
+  padding-bottom: 10px;
 }
 
 .nav-links.open {
-display: flex; /* Visível quando JS adiciona a classe .open */
+  display: flex; /* Visível quando JS adiciona a classe .open */
 }
 
 .nav-links a {
-display: block;
-padding: 10px 20px;
-text-decoration: none;
-color: var(--base-white);
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: var(--base-white);
 }
 
 .nav-links a:hover {
-background-color: #005f95;
+  background-color: #005f95;
 }
 
 /* Wayfinding (Destaque o link da página atual) */
 .nav-links a.active {
-background-color: var(--action-orange);
-color: var(--dark-text);
-font-weight: bold;
+  background-color: var(--action-orange);
+  color: var(--dark-text);
+  font-weight: bold;
 }
 
 .hamburger {
-display: block; /* Visível no mobile */
-background: none;
-border: none;
-color: var(--base-white);
-font-size: 2em;
-cursor: pointer;
+  display: block; /* Visível no mobile */
+  background: none;
+  border: none;
+  color: var(--base-white);
+  font-size: 2em;
+  cursor: pointer;
 }
 
 /* Estilos para telas maiores (Desktop View) */
 @media (min-width: 768px) {
-.nav-links {
-display: flex; /* Sempre visível no desktop */
-flex-direction: row;
-position: static;
-width: auto;
-padding-bottom: 0;
-}
-.hamburger {
-display: none; /* Oculta o hamburger no desktop */
-}
+  .nav-links {
+    display: flex; /* Sempre visível no desktop */
+    flex-direction: row;
+    position: static;
+    width: auto;
+    padding-bottom: 0;
+  }
+  .hamburger {
+    display: none; /* Oculta o hamburger no desktop */
+  }
 }
 
 /* =========================================================
 3. Layout Comum e Tipografia
 ========================================================= */
 main {
-padding: 20px;
-max-width: 1200px;
-margin: 20px auto;
-background-color: var(--base-white);
-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-border-radius: 8px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 20px auto;
+  background-color: var(--base-white);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
 }
 
-h1, h2, h3 {
-font-family: var(--font-heading);
-color: var(--primary-blue);
-margin-bottom: 15px;
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading);
+  color: var(--primary-blue);
+  margin-bottom: 15px;
 }
 
-h1 { font-size: 2.5em; text-align: center; }
-h2 { font-size: 1.8em; border-bottom: 1px solid var(--light-cyan); padding-bottom: 5px; }
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+}
+h2 {
+  font-size: 1.8em;
+  border-bottom: 1px solid var(--light-cyan);
+  padding-bottom: 5px;
+}
 
 /* Botões de Ação */
-button, .btn {
-background-color: var(--action-orange);
-color: var(--dark-text);
-padding: 10px 20px;
-border: none;
-border-radius: 5px;
-cursor: pointer;
-font-weight: bold;
-text-decoration: none;
-display: inline-block;
+button,
+.btn {
+  background-color: var(--action-orange);
+  color: var(--dark-text);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
 }
 
-button:hover, .btn:hover {
-background-color: #d17505;
+button:hover,
+.btn:hover {
+  background-color: #d17505;
 }
 
 /* Rodapé */
 footer {
-background-color: var(--primary-blue);
-color: var(--base-white);
-text-align: center;
-padding: 15px;
-margin-top: 30px;
+  background-color: var(--primary-blue);
+  color: var(--base-white);
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
 }
 
 footer a {
-color: var(--light-cyan);
-text-decoration: none;
-margin: 0 10px;
+  color: var(--light-cyan);
+  text-decoration: none;
+  margin: 0 10px;
 }
 
 /* =========================================================
 4. Estrutura de Cards (Para tours.html)
 ========================================================= */
 .card-grid {
-display: grid;
-gap: 20px;
-grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Layout Responsivo */
-margin-top: 20px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(280px, 1fr)
+  ); /* Layout Responsivo */
+  margin-top: 20px;
 }
 
 .tour-card {
-background-color: #f4f4f4;
-border-radius: 8px;
-overflow: hidden;
-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-transition: transform 0.2s;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
 }
 
 .tour-card:hover {
-transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 .tour-card img {
-width: 100%;
-height: 200px;
-object-fit: cover;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
 
 .card-content {
-padding: 15px;
+  padding: 15px;
 }
 
 .card-content h3 {
-color: var(--action-orange);
-font-size: 1.4em;
-margin-bottom: 5px;
+  color: var(--action-orange);
+  font-size: 1.4em;
+  margin-bottom: 5px;
 }
 
 .card-content .price {
-font-weight: bold;
-color: #4CAF50; /* Verde para Preço */
-font-size: 1.1em;
+  font-weight: bold;
+  color: #4caf50; /* Verde para Preço */
+  font-size: 1.1em;
 }
 
 /* =========================================================
 5. Modal (Para places.html)
 ========================================================= */
 .modal-overlay {
-display: none; /* Inicialmente oculto */
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background-color: rgba(0, 0, 0, 0.7);
-justify-content: center;
-align-items: center;
-z-index: 1001;
+  display: none; /* Inicialmente oculto */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+  z-index: 1001;
 }
 
 .modal-content {
-background-color: var(--base-white);
-padding: 30px;
-border-radius: 10px;
-max-width: 500px;
-width: 90%;
-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-position: relative;
+  background-color: var(--base-white);
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  position: relative;
 }
 
 .close-button {
-position: absolute;
-top: 10px;
-right: 15px;
-font-size: 1.5em;
-cursor: pointer;
-color: var(--primary-blue);
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 1.5em;
+  cursor: pointer;
+  color: var(--primary-blue);
 }

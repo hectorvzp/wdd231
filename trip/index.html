@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Título da página -->
+  <title>Hotels & Stays | Come With Me Travels</title>
+
+  <!-- Meta description (SEO) -->
+  <meta name="description" content="Find the best hotels, resorts, and restaurants for your perfect vacation.">
+
+  <!-- Autor -->
+  <meta name="author" content="Hector Zambrano">
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+
+  <!-- Preconnect para Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Google Fonts (todas em uma única URL) -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  <!-- Open Graph (OG) Tags -->
+  <meta property="og:title" content="Hotels & Stays | Come With Me Travels">
+  <meta property="og:description" content="Find the best hotels, resorts, and restaurants for your perfect vacation.">
+  <meta property="og:image" content="./images/logopau.ico">
+  <meta property="og:url" content="./index.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Hotels & Stays | Come With Me Travels">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo"><a href="./index.html">Come With Me Travels</a>
+
+      </div>
+      <button class="hamburger" aria-label="Toggle navigation menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="./index.html" class="active">Home</a></li>
+        <li><a href="./tour.html">Trips & Packages</a></li>
+        <li><a href="./places.html">Hotels & Stays</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <h1>Your Next Adventure Starts Here</h1>
+      <p>We craft unforgettable journeys tailored just for you. Trust us with your dreams.</p>
+      <button id="theme-toggle-btn" class="btn">Toggle Dark/Light Mode (Local Storage)</button>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <div class="card-grid">
+        <div class="service-card">
+          <h3>Tailored Itineraries</h3>
+          <p>Custom trips designed around your schedule and interests.</p>
+        </div>
+        <div class="service-card">
+          <h3>Flights & Tickets</h3>
+          <p>Best airfare deals and ticket booking for attractions worldwide.</p>
+        </div>
+        <div class="service-card">
+          <h3>24/7 Support</h3>
+          <p>Assistance available anytime, anywhere during your journey.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="reviews">
+      <h2>Customer Reviews</h2>
+      <p>What our travelers are saying...</p>
+    </section>
+
+    <section id="contact-form">
+      <h2>Request a Quote</h2>
+      <p>Fill out the form below and we will contact you within 24 hours.</p>
+      <form action="form-action.html" method="get">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="destination">Desired Destination:</label><br>
+        <input type="text" id="destination" name="destination"><br><br>
+
+        <label for="days">Preferred Duration (Days):</label><br>
+        <input type="number" id="days" name="days" min="1" max="30" value="7"><br><br>
+
+        <button type="submit">Submit Request</button>
+      </form>
+    </section>
+  </main>
+
+
+  <footer>
+    <p>
+      &copy; 2025 Come With Me Travels |
+      <a href="attributions.html">Attributions</a> |
+      <a href="[LINK_DO_SEU_VIDEO_AQUI]" target="_blank">Video Demonstration</a>
+    </p>
+  </footer>
+  <script type="module" src="./scripts/main.js" defer></script>
+  <script type="module" src="./scripts/data.js" defer></script>
+  <script type="module" src="./scripts/places.js" defer></script>
+</body>
+
+</html>
