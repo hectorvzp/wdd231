@@ -61,9 +61,10 @@ function displayTours(tours, minPrice = 0) {
                     <p class="price">Price from: <strong>R$ ${tour.base_price.toFixed(
                       2
                     )}</strong></p>
-                    <button class="btn view-tour-btn" data-id="${
+                    <button class="show-details-btn" data-id="${
                       tour.id
-                    }"<button class="btn show-details-btn">View Details </button>
+                    }">View Details</button>
+
                 </div>
             </div>
         `;
@@ -94,9 +95,18 @@ async function setupToursPage() {
 if (document.getElementById("tour-listings")) {
   setupToursPage();
 }
-const modal = document.querySelector(".hotel-modal");
-const boton = document.querySelector(".btn show-details-btn");
-boton.addEventListener("click", () => {
-  console.log("clicou");
-  modal.style.display = "flex";
+
+// Event delegation: escucha clicks en todo el container
+const modal = document.getElementById("hotel-modal");
+document.addEventListener("click", (e) => {
+  if (e.target && e.target.classList.contains("show-details-btn")) {
+    modal.style.display = "flex";
+  }
+});
+
+// Cerrar modal al clicar en el X o fuera del contenido
+modal.addEventListener("click", (e) => {
+  if (e.target.id === "hotel-modal" || e.target.classList.contains("close")) {
+    modal.style.display = "none";
+  }
 });
