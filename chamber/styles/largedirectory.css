@@ -492,6 +492,7 @@ p span {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 20px;
+  margin-bottom: 10px;
 }
 
 .item-card h2 {
@@ -523,16 +524,4 @@ p span {
   border-radius: 8px;
   margin: 10px 20px;
   font-weight: bold;
-}
-
-/* Medium screens */
-@media (min-width: 641px) and (max-width: 1024px) {
-  .grid-container {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas:
-      "item1 item2"
-      "item3 item4"
-      "item5 item6"
-      "item7 item8";
-  }
 }
