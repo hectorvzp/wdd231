@@ -104,6 +104,10 @@ nav {
     width: auto;
     padding-bottom: 0;
   }
+  .service-card {
+    padding: 15px;
+    margin-bottom: 20px;
+  }
   .hamburger {
     display: none; /* Oculta o hamburger no desktop */
   }
@@ -326,7 +330,7 @@ footer a {
   font-size: 28px;
   cursor: pointer;
 }
-#foto {
+.foto {
   display: block;
   margin: 20px auto;
   max-width: 200px;
@@ -338,4 +342,33 @@ footer a {
   justify-content: center;
   gap: 20px;
   margin-top: 15px;
+}
+.service-card {
+  background-color: #ffffff; /* Fundo branco limpo */
+  border-radius: 15px; /* Bordas arredondadas */
+  padding: 20px; /* Espaço interno */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
+  text-align: center; /* Centraliza texto e títulos */
+  cursor: default;
+}
+
+/* Hover: efeito de destaque */
+.service-card:hover {
+  transform: translateY(-5px); /* Leve elevação */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2); /* Sombra mais intensa */
+}
+
+/* Título dentro do card */
+.service-card h3 {
+  color: #0077cc; /* Azul elegante */
+  margin-bottom: 10px;
+  font-size: 1.3em;
+}
+
+/* Parágrafo dentro do card */
+.service-card p {
+  color: #555; /* Texto mais suave */
+  line-height: 1.6;
+  font-size: 1em;
 }
