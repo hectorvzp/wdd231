@@ -486,6 +486,7 @@ p span {
   justify-content: space-between;
   gap: 20px;
   margin-bottom: 10px;
+  font-family: var(--heading-font);
 }
 
 .item-card h2 {
