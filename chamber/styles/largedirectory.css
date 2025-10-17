@@ -488,6 +488,16 @@ p span {
   margin-bottom: 10px;
   font-family: var(--heading-font);
 }
+.item-card {
+  background-color: var(--accent2-color);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  width: calc(33% - 20px); /* três colunas com espaçamento */
+  box-sizing: border-box;
+  text-align: center;
+  transition: transform 0.3s;
+}
 
 .item-card h2 {
   margin: 10px 0;
