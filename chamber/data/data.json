@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "City Museum",
+    "address": "123 Main Street, YourCity",
+    "description": "Explore the history and culture of the city through exhibits and events.",
+    "image": "images/art.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Central Park",
+    "address": "456 Park Ave, YourCity",
+    "description": "A large urban park perfect for picnics, walks, and outdoor activities.",
+    "image": "images/botanico.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Historic Theater",
+    "address": "789 Theater Lane, YourCity",
+    "description": "Enjoy live performances, plays, and concerts in a historic setting.",
+    "image": "images/central.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Science Center",
+    "address": "101 Science Blvd, YourCity",
+    "description": "Interactive science exhibits for all ages.",
+    "image": "images/city.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Local Market",
+    "address": "202 Market St, YourCity",
+    "description": "Fresh produce, artisan goods, and a taste of local culture.",
+    "image": "images/historico.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Art Gallery",
+    "address": "303 Art Way, YourCity",
+    "description": "Modern and contemporary art exhibitions.",
+    "image": "images/local.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Botanical Garden",
+    "address": "404 Garden Rd, YourCity",
+    "description": "Beautiful gardens showcasing native and exotic plants.",
+    "image": "images/river.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Riverwalk",
+    "address": "505 River St, YourCity",
+    "description": "Scenic walking paths along the river, cafes, and shops.",
+    "image": "images/sciense.jpg"
+  }
+]
